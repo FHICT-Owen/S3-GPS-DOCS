@@ -19,8 +19,8 @@ System_Boundary(boundry, "Restaurant-manager"){
 	Container(menu_service, "Menu service", "Spring MVC + Java", "Retrieves the menu.")
 	Container(inventory_service, "Inventory service", "Spring MVC + Java", "Retrieves the inventory data.")
 
-	ContainerDb(db1, "Database", "MongoDB", "Stores the menu data.")
-	ContainerDb(db2, "Database", "PostgreSQL", "Stores the inventory data.")
+	ContainerDb(menu_db, "Database", "MongoDB", "Stores the menu data.")
+	ContainerDb(inventory_db, "Database", "PostgreSQL", "Stores the inventory data.")
 }
 
 Rel(customer, spa_menu, "The customer uses the digital menu to order food.")
@@ -37,7 +37,7 @@ Rel(api, identity, "Makes API calls to", "JSON/HTTPS")
 Rel(api, menu_service, "Makes API calls to", "JSON/HTTPS")
 Rel(api, inventory_service, "Makes API calls to", "JSON/HTTPS")
 
-Rel(menu_service, db1, "Retrieves menu data")
-Rel(inventory_service, db2, "Retrieves inventory data")
+Rel(menu_service, menu_db, "Retrieves menu data")
+Rel(inventory_service, inventory_db, "Retrieves inventory data")
 
 @enduml

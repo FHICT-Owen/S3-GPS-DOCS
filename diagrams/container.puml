@@ -29,8 +29,8 @@ Rel(manager, live_view, "Manages the menu and can add permissons to kitchen staf
 Rel(manager, spa_menu, "Manages the menu and can add permissons to kitchen staff.")
 Rel(brand, spa_menu, "Controls the white label of their restaurant cain.")
 
-Rel(spa_menu, api, "Makes API calls to + Uses websockets", "JSON/Graphql + JSON/WSS")
-Rel(live_view, api, "Makes API calls to + Uses websockets", "JSON/Graphql + JSON/WSS")
+Rel(spa_menu, api, "Uses websockets", "JSON/WSS")
+Rel(live_view, api, "Uses websockets", "JSON/WSS")
 
 Rel(api, identity, "Makes API calls to", "JSON/HTTPS")
 

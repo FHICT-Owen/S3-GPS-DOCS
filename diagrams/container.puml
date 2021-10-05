@@ -8,31 +8,30 @@ Person(customer, "Customer")
 Person(staff, "Kitchen staff")
 Person(manager, "Restaurant manager")
 
-System_Ext(identity, "Identity service", "Provides")
+System_Ext(identity, "Identity service", "Provides authtentication with auth0.")
 
 System_Boundary(boundry, "Restaurant-manager"){
-	Container(live_view, "Single-Page Application", "React + JavaScript", "Provides the staff with a live view screen.")
-	Container(spa_menu, "Single-Page Application", "React + JavaScript", "Provides the customer with a digital menu.")
+	Container(spa, "Single-Page Application", "Vue + TypeScript", "Provides the menu and editing the menu + order-, inventory-, session- and table management.")
 
 	Container(api, "API Gateway Application", "Spring MVC + Java + Redis", "Provides data to the front-end and controls authorization.")
 
 	Container(menu_service, "Menu service", "Spring MVC + Java", "Retrieves the menu.")
 	Container(inventory_service, "Inventory service", "Spring MVC + Java", "Retrieves the inventory data.")
 
-	ContainerDb(menu_db, "Database", "MongoDB", "Stores the menu data.")
+	ContainerDb(menu_db, "Database", "PostgreSQL", "Stores the menu data.")
 	ContainerDb(inventory_db, "Database", "PostgreSQL", "Stores the inventory data.")
 }
 
-Rel(customer, spa_menu, "The customer uses the digital menu to order food.")
-Rel(staff, live_view, "The kitchen staff can look at the live view screen which shows real time orders, the inventory and the table status.")
-Rel(manager, live_view, "Manages the menu and can add permissons to kitchen staff.")
-Rel(manager, spa_menu, "Manages the menu and can add permissons to kitchen staff.")
-Rel(brand, spa_menu, "Controls the white label of their restaurant cain.")
+Rel(customer, spa, "The customer uses the digital menu to order food.")
+Rel(staff, spa, "label")
+Rel(manager, spa, "Manages the menu and can add permissons to kitchen staff.")
+Rel(manager, spa, "Manages the menu and can add permissons to kitchen staff.")
+Rel(brand, spa, "Controls the white label of their restaurant cain.")
 
-Rel(spa_menu, api, "Uses websockets", "JSON/WSS")
-Rel(live_view, api, "Uses websockets", "JSON/WSS")
+Rel(spa, api, "Uses websockets", "JSON/HTTPS, JSON/WSS")
 
 Rel(api, identity, "Makes API calls to", "JSON/HTTPS")
+Rel(spa, identity, "Makes API calls to", "JSON/HTTPS")
 
 Rel(api, menu_service, "Makes API calls to", "JSON/HTTPS")
 Rel(api, inventory_service, "Makes API calls to", "JSON/HTTPS")

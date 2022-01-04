@@ -8,7 +8,7 @@ According to Wikipedia <sup>[1](#Sources)</sup> :
 > *"Culture is an umbrella term which encompasses the social behavior and norms found in human societies, as well as the knowledge, beliefs, arts, laws, customs, capabilities, and habits of the individuals in these groups. Humans acquire culture through the learning processes of enculturation and socialization, which is shown by the diversity of cultures across societies."*
 
 ## Culture clustering
-A cultural cluster from what I understand is a geographical region that encompasses multiple countries that possibly share three or four cultural values like: history, religion, economic development, regional proximity, and other factors. A cultural cluster is used as a more efficient way to learn about cultural differences by analyzing a group of societies with a few similar values and comparing those to other clusters instead of analyzing societies one at a time.<sup>[2](#Sources)</sup>
+A cultural cluster from what I understand is a geographical region that encompasses multiple countries that possibly share three or four cultural values like: history, religion, economic development, regional proximity, and other factors. A cultural cluster is used as a more efficient way to learn about cultural differences by analyzing a group of societies with a few similar values and comparing those to other clusters instead of analyzing societies one at a time. <sup>[2](#Sources)</sup>
 
 Summarized by Virkus, S. in 2009 <sup>[3](#Sources)</sup> from (Northouse, 2007, p.309-313) the following cultural clusters can be identified in modern-day society:
 
@@ -60,7 +60,7 @@ Nowadays software has more and more influence on our daily lives, which implies 
 Ethics are very important to a software engineer, because software engineers need to be aware that they are responsible for the effects that their software has on individuals, as they create the code that changes the software-controlled parts we depend upon. 
 
 ## What do you have to do as a software engineer to address ethical aspects in your work?
-As a software engineer you should address the ethical aspects of your work by considering the code of ethics for software engineers written by the Association for Computer Machinery, summarized by Cast of Software <sup>[5](#Sources)</sup>:
+As a software engineer you should address the ethical aspects of your work by considering the code of ethics for software engineers written by the Association for Computer Machinery, summarized by Cast of Software <sup>[5](#Sources)</sup> :
 
 > 1. PUBLIC - Software engineers shall act consistently with the public interest.
 > 2. CLIENT AND EMPLOYER - Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest.

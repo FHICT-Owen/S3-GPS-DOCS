@@ -5,7 +5,7 @@ To better understand the importance of culture to a software engineer the sectio
 ## What is culture?
 According to Wikipedia <sup>[1](#Sources)</sup> : 
 
-> *"Culture is an umbrella term which encompasses the social behavior and norms found in human societies, as well as the knowledge, beliefs, arts, laws, customs, capabilities, and habits of the individuals in these groups. Humans acquire culture through the learning processes of enculturation and socialization, which is shown by the diversity of cultures across societies."*
+>*"Culture is an umbrella term which encompasses the social behavior and norms found in human societies, as well as the knowledge, beliefs, arts, laws, customs, capabilities, and habits of the individuals in these groups. Humans acquire culture through the learning processes of enculturation and socialization, which is shown by the diversity of cultures across societies."*
 
 ## Culture clustering
 A cultural cluster from what I understand is a geographical region that encompasses multiple countries that possibly share three or four cultural values like: history, religion, economic development, regional proximity, and other factors. A cultural cluster is used as a more efficient way to learn about cultural differences by analyzing a group of societies with a few similar values and comparing those to other clusters instead of analyzing societies one at a time. <sup>[2](#Sources)</sup>
@@ -23,14 +23,36 @@ Summarized by Virkus, S. in 2009 <sup>[3](#Sources)</sup> from (Northouse, 2007,
 - Southern Asia - strong family & deep concern for their communities
 - Sub-Sahara Africa - concerned & sensitive to others, demonstrate strong family loyalty
 
+## Cultural dimensions
+The definition of a cultural dimension according to IGI Global's dictionary is as follows <sup>[4](#Sources)</sup> : 
+
+>*"Cultural dimensions are the mostly psychological dimensions, or value constructs, which can be used to describe a specific culture. These are often used in intercultural communication-/cross-cultural communication-based research."*
+
+For defining cultural dimensions we can use Hofstede's cultural dimensions framework to compare different cultures. In particular, the power distance, the collectivism vs individualism and the uncertainty avoidance index are very important properties to use for comparing cultural clusters in our case.
+
+![Hofstede's cultural dimensions](https://d9p7civm2914u.cloudfront.net/wp-content/uploads/2015/10/hofstede-s-cultural-dimensions.png)
+
+## Cultural context 
+The definition of Cultural context according to IGI Global's dictionary is as follows <sup>[5](#Sources)</sup> : 
+
+>*"Cultural context is related to the society where individuals are raised in and at how the culture affects behavior. It incorporates values that are learned and attitudes that are shared among groups of people. It includes beliefs, meanings, customs, ideas, language, norms."*
+
+![Differences between high and low cultural context](https://1.bp.blogspot.com/-dlQqJYQJE1k/UTPPrJrqWuI/AAAAAAAABe0/7GbzlylcmhM/s1600/High+and+Low+Context+2.png)
+
 ## My own culture
 I was born in the Netherlands and still live there. My culture is the Dutch culture of the Netherlands, meaning that I celebrate Dutch holidays and have habits that are particular to Dutch culture like: hardworking, well-organized and not boasting about accomplishment or material possesion.
+
+Dutch culture is considered to be a low-context communication culture. As an example for this, Dutch people are direct almost to the extreme. Especially in a work environment Dutch people communicate as direct and straight-forward as possible. This can even sometimes be interpreted as blunt or impolite to other cultures like the high-context Japanese culture.
+
+As for the cultural dimensions within Dutch culture, we have a low power distance index, are individualists and lean way more to the feminine side.
+
+![Dutch Hofstede scores](https://i.ibb.co/tz83pNd/Dutch-hofstede-score.png)
 
 ## Which cultural aspects would you keep in mind when facing cultural differences? 
 When faced with cultural differences I would keep differences in things like social behaviour, norms, customs and possible habits very much in mind when interacting with the other party. I would embrace possible cultural differences and use cultural pluralism to compare and better understand the culture of the other party compared to my own.
 
 ## Can you give examples for things going not as expected when interacting with people from other cultures? What and why went differently? 
-As part of how I spend my free time I help to moderate an online community of a brittish friend of mine, which consists of about 15000 individuals. Quite a few of these individuals come from different parts of the globe and therefore value things differently. As an example we, as staff, often help out our community members using a support system we have created where questions can be asked. The way our time is valued helping out individuals generally differs a lot between cultures where the brittish individuals would tend to thank us more often for our time than individuals from the U.S. (this is a personal observation).
+As part of how I spend my free time I help to moderate an online community of a brittish friend of mine, which consists of about 15000 individuals. Quite a few of these individuals come from different parts of the globe and therefore value things differently. As an example we, as staff, often help out our community members using a support system we have created where questions can be asked. We get a lot of users from other cultural clusters that we interact with. The biggest part of the community consists of people from the Anglo cluster including a major part of the staff team. We have a very clear hierarchy within our staff team where individuals from different parts of the hierarchy are not always considered equals. This is very different from the Dutch egalitarian hierarchy where everyone is valued equally and even the boss is part of the team.
 
 ## How would you act in the future when you know that you need to communicate or collaborate with a person from another culture?
 I'd have to consider more often that my norms and values might not be the same as the other individual. As an example, I can take the abovementioned difference into account by comparing how their perspective might differ from my own.
@@ -43,7 +65,7 @@ Specifically for our group project I helped to improve communications by speakin
 To better understand the significance of ethics related to software engineering I've written down a few questions below. In each sub-section I'll be answering the question for that section. After having completed this I will have proven that I have a sufficient amount of knowledge regarding the importance of ethics for a software engineer.
 
 ## What are ethics in software engineering?
-First we need to understand what the ethics of software engineering are and how they can be approached. Below you'll find a short overview written by Gotterbarn, D. <sup>[4](#Sources)</sup> that explains these ethics: 
+First we need to understand what the ethics of software engineering are and how they can be approached. Below you'll find a short overview written by Gotterbarn, D. <sup>[6](#Sources)</sup> that explains these ethics: 
 
 > *"Software engineering ethics can be approached from three directions. First, it can
 describe the activity of software engineers making practical choices that affect other
@@ -60,7 +82,7 @@ Nowadays software has more and more influence on our daily lives, which implies 
 Ethics are very important to a software engineer, because software engineers need to be aware that they are responsible for the effects that their software has on individuals, as they create the code that changes the software-controlled parts we depend upon. 
 
 ## What do you have to do as a software engineer to address ethical aspects in your work?
-As a software engineer you should address the ethical aspects of your work by considering the code of ethics for software engineers written by the Association for Computer Machinery, summarized by Cast of Software <sup>[5](#Sources)</sup> :
+As a software engineer you should address the ethical aspects of your work by considering the code of ethics for software engineers written by the Association for Computer Machinery, summarized by Cast of Software <sup>[7](#Sources)</sup> :
 
 > 1. PUBLIC - Software engineers shall act consistently with the public interest.
 > 2. CLIENT AND EMPLOYER - Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest.
@@ -88,5 +110,7 @@ To minimize the affects of the abovementioned conflict it could be a good idea t
 1. [Wikipedia contributors. (2022, January 1). What is culture? Wikipedia. Retrieved January 4, 2022](https://en.wikipedia.org/wiki/Culture)
 2. [Menzies, F. (2018, May 6). Cultural Clusters: Mapping Cultural Distance. Culture Plus Consulting. Retrieved January 4, 2022](https://cultureplusconsulting.com/2015/03/24/mapping-cultural-distance-cultural-clusters/)
 3. [Virkus, S. (2009). Characteristics of cultural clusters. Tallinn University. Retrieved January 4, 2022](https://www.tlu.ee/%7Esirvir/IKM/Leadership%20Dimensions/characteristics_of_clusters.html)
-4. [Gotterbarn, D. (2001). Software engineering ethics. Encyclopedia of Software Engineering, 2. Retrieved January 4, 2022](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.5649&rep=rep1&type=pdf)
-5. [Importance of software engineering & code of ethics. (n.d.). Cast of Software. Retrieved January 4, 2022](https://www.castsoftware.com/glossary/importance-of-software-engineering-code-of-ethics-future)
+4. [What are Cultural Dimensions. (n.d.). IGI Global. Retrieved January 11, 2022,](https://www.igi-global.com/dictionary/cultural-dimensions/6380)
+5. [What is cultural context? (n.d.). IGI Global. Retrieved January 11, 2022](https://www.igi-global.com/dictionary/cultural-context/87372#:%7E:text=Cultural%20context%20is%20related%20to,%2C%20ideas%2C%20language%2C%20norms)
+6. [Gotterbarn, D. (2001). Software engineering ethics. Encyclopedia of Software Engineering, 2. Retrieved January 4, 2022](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.5649&rep=rep1&type=pdf)
+7. [Importance of software engineering & code of ethics. (n.d.). Cast of Software. Retrieved January 4, 2022](https://www.castsoftware.com/glossary/importance-of-software-engineering-code-of-ethics-future)
